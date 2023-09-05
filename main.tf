@@ -19,7 +19,7 @@ provider "snowflake" {
 }
 
 resource "snowflake_schema" "demo_schema" {
-  database = "demo_db"
+  database = "DEMO_DB"
   name     = "DEMO_SCHEMA"
   comment  = "Schema for Snowflake Terraform demo"
 }
